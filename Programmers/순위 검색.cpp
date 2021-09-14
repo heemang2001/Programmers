@@ -65,6 +65,7 @@ vector<int> solution(vector<string> info, vector<string> query)
 	for (int i = 0; i < query.size(); i++)
 	{
 		int score;
+
 		istringstream stt(query[i]);
 		stt >> s[0] >> sTemp >> s[1] >> sTemp >> s[2] >> sTemp >> s[3] >> sTemp;
 		score = stoi(sTemp);
@@ -73,6 +74,10 @@ vector<int> solution(vector<string> info, vector<string> query)
 
 		if (vecTemp.size() != 0)
 		{
+			// lower_bound : 시작 이터레이터 ~ 끝 이터레이터 사이에서 value 이상인 값을 가지는 이터레이터를 반환하게 된다.		
+			// 이 과정은 Binary Search로 이루어지기 때문에 항상 lower_bound를 동작시키기 위해서는 해당하는 벡터는 정렬되어 있어야 한다.	
+			// 이때 이터레이터를 반환받지 않고 인덱스를 반환 받기 위해서는
+			// lower_bound(~) - vector.begin()을 하게 된다면 인덱스를 반환 받을 수 있다.			
 			auto iter = lower_bound(vecTemp.begin(), vecTemp.end(), score);
 			answer.push_back(vecTemp.size() - (iter - vecTemp.begin()));
 		}
