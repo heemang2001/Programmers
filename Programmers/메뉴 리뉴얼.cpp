@@ -48,6 +48,7 @@ vector<string> solution(vector<string> orders, vector<int> course)
 
 	vector<pair<string, int>> vecSorted;
 
+	// 정렬위해 map에서 vector로 옮겨줌
 	for (auto order : mapMenu)
 	{
 		if (order.second > 1)
