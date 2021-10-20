@@ -54,5 +54,8 @@
     <ClCompile Include="카카오프렌즈 컬러링북.cpp">
       <Filter>소스 파일\Level 2</Filter>
     </ClCompile>
+    <ClCompile Include="불량 사용자.cpp">
+      <Filter>소스 파일\Level 3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
