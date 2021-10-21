@@ -57,5 +57,8 @@
     <ClCompile Include="불량 사용자.cpp">
       <Filter>소스 파일\Level 3</Filter>
     </ClCompile>
+    <ClCompile Include="브라이언의 고민.cpp">
+      <Filter>소스 파일\Level 3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
