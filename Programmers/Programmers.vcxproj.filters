@@ -60,5 +60,8 @@
     <ClCompile Include="브라이언의 고민.cpp">
       <Filter>소스 파일\Level 3</Filter>
     </ClCompile>
+    <ClCompile Include="로또의 최고 순위와 최저 순위.cpp">
+      <Filter>소스 파일\Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
