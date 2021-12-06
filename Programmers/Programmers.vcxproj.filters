@@ -78,5 +78,8 @@
     <ClCompile Include="거리두기 확인하기.cpp">
       <Filter>소스 파일\Level 2</Filter>
     </ClCompile>
+    <ClCompile Include="소수 만들기.cpp">
+      <Filter>소스 파일\Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
