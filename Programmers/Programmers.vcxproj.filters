@@ -81,5 +81,11 @@
     <ClCompile Include="소수 만들기.cpp">
       <Filter>소스 파일\Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="추석 트래픽.cpp">
+      <Filter>소스 파일\Level 3</Filter>
+    </ClCompile>
+    <ClCompile Include="예상 대진표.cpp">
+      <Filter>소스 파일\Level 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
