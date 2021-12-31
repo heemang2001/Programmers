@@ -90,5 +90,8 @@
     <ClCompile Include="없는 숫자 더하기.cpp">
       <Filter>소스 파일\Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="자물쇠와 열쇠.cpp">
+      <Filter>소스 파일\Level 3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
