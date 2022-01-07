@@ -96,5 +96,8 @@
     <ClCompile Include="폰켓몬.cpp">
       <Filter>소스 파일\Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="후보키.cpp">
+      <Filter>소스 파일\Level 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
