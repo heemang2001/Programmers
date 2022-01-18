@@ -102,5 +102,8 @@
     <ClCompile Include="멀쩡한 사각형.cpp">
       <Filter>소스 파일\Level 2</Filter>
     </ClCompile>
+    <ClCompile Include="게임 맵 최단거리.cpp">
+      <Filter>소스 파일\Level 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
