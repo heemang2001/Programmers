@@ -105,5 +105,8 @@
     <ClCompile Include="게임 맵 최단거리.cpp">
       <Filter>소스 파일\Level 2</Filter>
     </ClCompile>
+    <ClCompile Include="괄호 변환.cpp">
+      <Filter>소스 파일\Level 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
